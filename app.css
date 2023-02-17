@@ -1,0 +1,407 @@
+body{
+    background: url(image/green.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bar{
+    margin-top: 1%;
+   background: url(image/green.jpg);
+    width: 100%;
+    
+    
+    gap: 10px;
+}
+
+li{
+    display: flex;
+    flex-wrap: wrap;
+    display: inline;
+   
+    line-height: 190%;
+}
+.atr{
+    
+    padding: 20px;
+    text-decoration: none;
+    font-style: italic;
+    font-size: x-large;
+    font-weight: 900;
+    color: rgb(255, 255, 0);
+}
+.atr:hover{
+    
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+.tea{
+  height: 700px;
+  width: 100%;
+
+}
+.maindiv{
+    border-radius: 50%;
+    position: inherit;
+    margin-left: 50%;
+    margin-top: 19%;
+    margin-bottom: -15%;
+    height: 500px;
+    width: 40%;
+   
+    background-size: 100% 100%;
+    transform: translate(-50%, -50%);
+    animation: slider 16s infinite linear;
+}
+@keyframes slider{
+    0%{ background-image: url('image/edible1.jpg');}
+    30%{ background-image: url('image/edible2.png');}
+    70%{    background-image: url('image/edible3.jpg');
+    }
+    90%{    background-image:url('image/edible1.jpg') ;
+    }
+}
+.box{
+    
+    padding: 5px;
+    background-color: rgb(250, 225, 65);
+    height: fit-content;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+.content{
+    margin-bottom: 5px;
+    margin: 5px;
+    padding: 5px;
+   
+    height: max-content;
+    width: 450px;
+    
+}
+h1{
+    margin: 50px ;
+    text-align: center;
+    text-decoration: underline;
+    font-size: x-large;
+    font-weight:bolder;
+    font-style: italic;
+}
+.blogs{
+    height: 200px;
+    width: 250px;
+}
+.para{
+    margin: 10px;
+    font-size: larger;
+   
+    font-style: italic;
+    text-indent: 2px;
+    text-align: left;
+
+    
+}
+.flex{
+    text-align: center;
+}
+.more{
+    color: black;
+    font-size: medium;
+
+}
+.blog{
+    background-color: rgb(250, 225, 65);
+    padding: 20px 50px;
+}
+.menu{
+    background-color: rgb(250, 225, 65);
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.image{
+    border-radius: 50%;
+    height: 200px ;
+    width: 250px;
+}
+h2{
+    margin: 10px 30px;
+    
+}
+.dish{
+    margin: 20px;
+}
+.video{
+    margin: 30px;
+    
+}
+.gallary{
+    display: flex;
+    flex-wrap: wrap;
+}
+.about{
+    background-color: rgb(250, 225, 65);
+    padding: 20px;
+}
+.contacts{
+    margin-top: 200px;
+    margin-left: 500px;
+}
+.social{
+    border-radius: 50%;
+   margin: 5px;
+   background: url(image/green.jpg);
+   background-repeat: no-repeat;
+   height: 70px;
+   width: 70px;
+}
+h4{
+    font-size: x-large;
+    color: white;
+    margin: 5px;
+    margin-top: 2% ;
+}
+.mail{
+   
+    margin: 20px;
+   display: flex;
+   flex-wrap: wrap;
+}
+@media screen and (max-width:900px)
+{
+    body{
+        background: url(image/green.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }  
+    .bar{
+        margin-top: 1%;
+       background: url(image/green.jpg);
+        width: 100%;
+        gap: 5px;
+        
+        
+    }
+    .tea{
+        height: 450px;
+        width: 100%;
+    }
+    li{
+        display: flex;
+        flex-wrap: wrap;
+        display: inline;
+       
+        line-height: 190%;
+    }
+    .atr{
+    
+        padding: 20px;
+        text-decoration: none;
+        font-style: italic;
+        font-size: large;
+        font-weight: 500;
+        color: rgb(255, 255, 0);
+    }
+    .atr:hover{
+        
+        color: rgb(255, 255, 255);
+        text-decoration: underline;
+    }
+    .maindiv{
+        border-radius: 50%;
+        position: inherit;
+        margin-left: 50%;
+        margin-top: 19%;
+        margin-bottom: -15%;
+        height: 300px;
+        width: 40%;
+       
+        background-size: 100% 100%;
+        transform: translate(-50%, -50%);
+        animation: slider 16s infinite linear;
+    }
+    @keyframes slider{
+        0%{ background-image: url('image/edible1.jpg');}
+        30%{ background-image: url('image/edible2.png');}
+        70%{    background-image: url('image/edible3.jpg');
+        }
+        90%{    background-image:url('image/edible1.jpg') ;
+        }
+    }
+    .box{
+    
+        padding: 5px;
+        background-color: rgb(250, 225, 65);
+        height: fit-content;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+     
+    }
+    .content{
+        margin-bottom: 5px;
+        
+        padding: 5px;
+       margin-left: 15px;
+        height: max-content;
+        width: 450px;
+        
+    }
+    h1{
+        margin: 50px ;
+        text-align: center;
+        text-decoration: underline;
+        font-size: x-large;
+        font-weight:bolder;
+        font-style: italic;
+    }
+    .para{
+        margin: 10px;
+        font-size: larger;
+       
+        font-style: italic;
+        text-indent: 2px;
+        text-align: left;
+    }
+    .contacts{
+        margin-top: 200px;
+        margin-left: 250px;
+    }
+}
+@media screen and (max-width:600px){
+    body{
+        background: url(image/green.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }  
+    .bar{
+        margin-top: 1%;
+        background: url(image/green.jpg);
+        width: 100%;
+        gap: 1px;
+        
+        
+    }
+    .tea{
+        height: 200px;
+        width: 100%;
+    }
+    li{
+        display: flex;
+        flex-wrap: wrap;
+        display: inline;
+       
+        line-height: 190%;
+    }
+    .atr{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding: 10px;
+        text-decoration: none;
+        font-style: italic;
+        font-size: 9px;
+        font-weight: 500;
+        color: rgb(255, 255, 0);
+    }
+    .atr:hover{
+        
+        color: rgb(255, 255, 255);
+        text-decoration: underline;
+    }
+    .maindiv{
+        border-radius: 50%;
+        position: inherit;
+        margin-left: 50%;
+        margin-top: 19%;
+        margin-bottom: -15%;
+        height: 150px;
+        width: 30%;
+       
+        background-size: 100% 100%;
+        transform: translate(-50%, -50%);
+        animation: slider 16s infinite linear;
+    }
+    @keyframes slider{
+        0%{ background-image: url('image/edible1.jpg');}
+        30%{ background-image: url('image/edible2.png');}
+        70%{    background-image: url('image/edible3.jpg');
+        }
+        90%{    background-image:url('image/edible1.jpg') ;
+        }
+    }
+    .box{
+    
+        padding: 5px;
+        background-color: rgb(250, 225, 65);
+        height: fit-content;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+     
+    }
+    .content{
+        margin-bottom: 5px;
+        
+        padding: 5px;
+       margin-left: 15px;
+        height: max-content;
+        width: 450px;
+        
+    }
+    h1{
+        margin: 50px ;
+        text-align: center;
+        text-decoration: underline;
+        font-size: x-large;
+        font-weight:bolder;
+        font-style: italic;
+    }
+    .para{
+        margin: 10px;
+        font-size: larger;
+       
+        font-style: italic;
+        text-indent: 2px;
+        text-align: left;
+    }
+    .contacts{
+        margin-top: 200px;
+        margin-left: 250px;
+        
+    }
+    .image{
+        border-radius: 50%;
+        height: 150px ;
+        width: 200px;
+    }
+    .blogs{
+        height: 100px;
+        width: 150px;
+    }
+    .contacts{
+        margin-top: 100px;
+        margin-left: 150px;
+    }
+    .social{
+        border-radius: 50%;
+       margin: 5px;
+       background: url(image/green.jpg);
+       background-repeat: no-repeat;
+       height: 50px;
+       width: 50px;
+    }
+    h4{
+        font-size: large;
+        color: white;
+        margin: 5px;
+        margin-top: 2% ;
+    }
+    .mail{
+   
+        margin: 10px;
+       display: flex;
+       flex-wrap: wrap;
+    }
+}
