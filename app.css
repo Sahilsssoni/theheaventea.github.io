@@ -285,7 +285,7 @@ h4{
         
     }
     .tea{
-        height: 200px;
+        height: 180px;
         width: 100%;
     }
     li{
@@ -315,7 +315,7 @@ h4{
         margin-left: 50%;
         margin-top: 19%;
         margin-bottom: -15%;
-        height: 150px;
+        height: 120px;
         width: 30%;
        
         background-size: 100% 100%;
@@ -382,7 +382,7 @@ h4{
     }
     .contacts{
         margin-top: 100px;
-        margin-left: 150px;
+        margin-left: 80px;
     }
     .social{
         border-radius: 50%;
