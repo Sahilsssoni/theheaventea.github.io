@@ -6,7 +6,7 @@ body{
 
 .bar{
     margin-top: 1%;
-   background: url(image/green.jpg);
+    background: url(image/green.jpg);
     width: 100%;
     
     
@@ -168,6 +168,16 @@ h4{
    display: flex;
    flex-wrap: wrap;
 }
+.footer{
+    padding: 5px;
+    text-transform: capitalize;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    text-align: center;
+    background-color: rgb(225, 225, 225);
+    height: fit-content;
+    width: 100%;
+}
 @media screen and (max-width:900px)
 {
     body{
@@ -268,6 +278,16 @@ h4{
     .contacts{
         margin-top: 200px;
         margin-left: 250px;
+    }
+    .footer{
+        padding: 5px;
+        text-transform: capitalize;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: large;
+        text-align: center;
+        background-color: rgb(225, 225, 225);
+        height: fit-content;
+        width: 100%;
     }
 }
 @media screen and (max-width:600px){
@@ -403,5 +423,15 @@ h4{
         margin: 10px;
        display: flex;
        flex-wrap: wrap;
+    }
+    .footer{
+        padding: 2px;
+        text-transform: capitalize;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: small;
+        text-align: center;
+        background-color: rgb(225, 225, 225);
+        height: fit-content;
+        width: 100%;
     }
 }
