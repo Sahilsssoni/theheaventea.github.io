@@ -393,8 +393,13 @@ h4{
     }
     .image{
         border-radius: 50%;
-        height: 150px ;
-        width: 200px;
+        height: 70px ;
+        width: 100px;
+       
+    }
+    h2{
+        margin: 5px 20px;
+        font-size: medium;
     }
     .blogs{
         height: 100px;
